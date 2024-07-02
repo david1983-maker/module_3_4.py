@@ -1,16 +1,3 @@
-# def test_func(*params):
-#     print('Tip:', type(params))
-#     print('Arguments:', params)
-# test_func(1,2,3,4)
-
-# def summator(txt, *values, type='sum'):
-#     s = 0
-#     for i in values:
-#         s += i
-#     return f'{txt} {s} {type}'
-#
-# print(summator('Summa thisel:',1,2,3,4,5,6,7,8))
-
 def single_root_words(root_word, *other_words):
     same_words = []
     root_word = root_word.lower()
